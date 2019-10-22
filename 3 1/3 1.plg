@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3 1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhf\AppData\Local\Temp\RSP32E8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/3 1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\3 1\3 1.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhf\AppData\Local\Temp\RSP32E8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+3 1.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\3 1\3 1.cpp(10) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\3 1\3 1.cpp(11) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+
+
+
+<h3>Results</h3>
+3 1.obj - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhf\AppData\Local\Temp\RSPBF9A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/32.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhf\AppData\Local\Temp\RSPBF9A.tmp" 
+Creating temporary file "C:\Users\zhf\AppData\Local\Temp\RSPBF9B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/32.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhf\AppData\Local\Temp\RSPBF9B.tmp" 
+Creating temporary file "C:\Users\zhf\AppData\Local\Temp\RSPBF9C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/32.pdb" /debug /machine:I386 /out:"Debug/32.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\32.obj"
+]
+Creating command line "link.exe @C:\Users\zhf\AppData\Local\Temp\RSPBF9C.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+32.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(10) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(11) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(12) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(13) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(14) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(18) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\32\32.cpp(19) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+32.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
