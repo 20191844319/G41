@@ -1,19 +1,19 @@
 ========================================================================
-       CONSOLE APPLICATION : as
+       CONSOLE APPLICATION : pi5
 ========================================================================
 
 
-AppWizard has created this as application for you.  
+AppWizard has created this pi5 application for you.  
 
 This file contains a summary of what you will find in each of the files that
-make up your as application.
+make up your pi5 application.
 
-as.dsp
+pi5.dsp
     This file (the project file) contains information at the project level and
     is used to build a single project or subproject. Other users can share the
     project (.dsp) file, but they should export the makefiles locally.
 
-as.cpp
+pi5.cpp
     This is the main application source file.
 
 
@@ -22,7 +22,7 @@ Other standard files:
 
 StdAfx.h, StdAfx.cpp
     These files are used to build a precompiled header (PCH) file
-    named as.pch and a precompiled types file named StdAfx.obj.
+    named pi5.pch and a precompiled types file named StdAfx.obj.
 
 
 /////////////////////////////////////////////////////////////////////////////
